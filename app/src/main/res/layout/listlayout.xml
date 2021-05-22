@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_subid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FC2E2D2D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_subname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_subid"
+        android:layout_alignParentBottom="false"
+        android:paddingTop="10sp"
+        android:scrollY="20sp"
+        android:text="TextView"
+        android:textColor="#FD4E4D4D"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_subname"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rd_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="10sp"
+          />
+
+        <RadioButton
+            android:id="@+id/rd_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.5"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.5"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.5"
+            android:textSize="10sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rd_eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="10sp"
+            />
+    </RadioGroup>
+</RelativeLayout>
